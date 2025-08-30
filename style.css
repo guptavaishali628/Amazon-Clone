@@ -202,14 +202,13 @@ span{
     flex-wrap: wrap;  /* ek line main bs ek 4 boxes hi aye*/
     row-gap: 20px; /* space between boxes */
     justify-content: space-evenly;
-    background: linear-gradient(to bottom, #ffe766, #f3f3f3, #ffffff); /* add color from yellow to white */
+    background: linear-gradient(to bottom, #ffe776,#e4e4d9, #dedddb); /* add color from yellow to white */
 }
 
 
 .box{
-    height: 400px;
-    border: 2px solid black;
-    width: 23.5%;  /*box width*/
+    height: 380px;
+    width: 22.5%;  /*box width*/
     background-color: white;
     padding:20px 0px 15px;
 }
@@ -255,3 +254,4 @@ span{
   color: black ;
 }
 
+/*-------------------------------scroll container---------------------*/
