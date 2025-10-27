@@ -190,6 +190,10 @@ span{
 
 /*----------------------------content(shop) section-------------------*/
 
+h2{
+    font-size: 1.3rem;
+}
+
 .shop-section{
     display: flex;
     flex-wrap: wrap;  /* ek line main bs ek 4 boxes hi aye*/
@@ -200,7 +204,8 @@ span{
 
 
 .box{
-    height: 380px;
+    min-height: 300px;
+    height:auto;  /*height according to content adjust here*/
     width: 22.5%;  /*box width*/
     background-color: white;
     padding:20px 0px 15px;
@@ -240,7 +245,7 @@ span{
 
 .item p {
   margin-top: 8px;
-  font-size: 0.82rem;
+  font-size: 0.72rem;
   font-weight: 500;
 }
 .item a p{
@@ -277,7 +282,7 @@ span{
     background-size: cover;
 }
 .scroll-box-child img{
-    height: 210px;
-    width: 160px;
+    height: 200px;
+    width: 150px;
 }
 
