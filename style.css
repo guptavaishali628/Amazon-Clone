@@ -286,3 +286,44 @@ h2{
     width: 150px;
 }
 
+.browser-history-parent{
+    width: 100%;
+    min-height: 70vh;
+    background-color: white;
+    
+}
+.browser-history-child{
+    min-height: 60%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 15px 0 15px;
+    width: 96%;
+    display: flex;
+    column-gap: 20px;
+}
+
+.browser-history-child div{
+    width: 180px;
+}
+
+.browser-history-child div div{
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.browser-history-child a{
+    font-size: 0.9rem;
+    color: #006577;
+}
+.browser-history-child a:hover{
+    text-decoration: underline;
+    color: #024e5b;
+}
+.browser-history-child i{
+    color: rgb(239, 119, 45);
+    margin-top: 6px;
+}
+
