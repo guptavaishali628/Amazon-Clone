@@ -2,7 +2,7 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif; /* font family */
     border: border-box;  /*to include border inside the content while giving height and width*/
-}
+}  
 /*--------------------------SECTION-1-----------------------------*/
 
 /*-------------------------------------navbar----------------------------------------------*/
@@ -320,10 +320,36 @@ h2{
 }
 .browser-history-child a:hover{
     text-decoration: underline;
-    color: #024e5b;
+    color: #013742;
 }
 .browser-history-child i{
     color: rgb(239, 119, 45);
-    margin-top: 6px;
+    margin-top: 4px;
+}
+.Personal-Recommandations{
+    text-align: center;
+    margin-top:3%;
+}
+.Personal-Recommandations button{
+    min-width: 16%;
+    width: auto;
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: rgb(240, 206, 55);
+    border: none;
+}
+.Personal-Recommandations button:hover{
+    background-color: rgb(238, 196, 6);
+}
+.Personal-Recommandations p a{
+    font-size: 0.8rem;
+    color: #006577;
+    text-decoration: underline;
+}
+.Personal-Recommandations p a:hover{
+    color: #013742;
 }
 
