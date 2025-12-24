@@ -2,6 +2,7 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif; /* font family */
     border: border-box;  /*to include border inside the content while giving height and width*/
+    overflow-x: hidden;
 }  
 /*--------------------------SECTION-1-----------------------------*/
 
@@ -328,7 +329,8 @@ h2{
 }
 .Personal-Recommandations{
     text-align: center;
-    margin-top:3%;
+    min-height: 100px;
+    height: auto;
 }
 .Personal-Recommandations button{
     min-width: 16%;
@@ -352,4 +354,51 @@ h2{
 .Personal-Recommandations p a:hover{
     color: #013742;
 }
+
+/*---------------------------Footer--------------------------------------------*/
+.back-to-top-div{
+    width: 100%;
+    background-color: rgb(65, 82, 101);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.back-to-top-div:hover{
+    background-color: rgb(68, 89, 111);
+}
+
+.parent-primary-main-footer-content{
+    width: 100%;
+    min-height:370px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(38, 50, 66);
+    padding-top: 1.5%;
+}
+
+.child-primary-main-footer-content{
+    width: 20%;
+    height:  300px;
+}
+
+.child-primary-main-footer-content p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.child-primary-main-footer-content a{
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+
+.child-primary-main-footer-content a:hover{
+   text-decoration: underline;
+}
+
 
