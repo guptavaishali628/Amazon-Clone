@@ -377,7 +377,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content:center;
-    background-color: rgb(38, 50, 66);
+    background-color: #1f2a3a;
     padding-top: 1.5%;
 }
 
@@ -401,4 +401,39 @@ h2{
    text-decoration: underline;
 }
 
+.botton-logo-content-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.botton-content-div button{
+    cursor: pointer;
+    margin-left: 1rem ;
+    background-color: #1f2a3a;
+    border: 0.1px solid rgb(202, 198, 198);
+    border-radius: 3px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.parent-secondary-main-footer-content{
+    width: 100%;
+    min-height: 370px;
+    height: auto;
+    display: flex;
+    align-items:first baseline;
+    justify-content: center;
+    gap: 20px;
+    background-color: #131A22;
+
+}
+
+.child-secondary-main-footer-content{
+    background-color: red;
+    width: 8%;
+    min-height: 100px;
+    height: auto;
+}
 
