@@ -644,9 +644,9 @@ h2{
         font-size: 1.1rem;
     }
 
-    .shop-section .box {
-        width: 100%;
-        margin: 0 0 16px 0;
+    .shop-section {
+        padding: 0;                
+        justify-content: flex-start; 
     }
 
     .shop-section .box {
@@ -660,15 +660,20 @@ h2{
         background-size: cover;
         background-position: center;
     }
+
+     .box {
+        padding: 15px 0;          
+    }
     
     .grid {
         grid-template-columns: 1fr;
         gap: 15px;
     }
     
-    .item img {
-        height: 100px;
-    }
+     .item img {
+      max-width: 100%;
+      display: block;
+   }
     
     .scroll-box-child {
         width: 120px;
