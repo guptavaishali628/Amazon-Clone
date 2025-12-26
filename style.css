@@ -179,7 +179,7 @@ span{
 .hero-msg{
     background-color: white;
     color: black;
-    height: 30px;
+    padding: 8px 10px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,6 +188,7 @@ span{
    /* top: 50%; /* place it from bottom (instead of writing this we can use "align-items : flex-end")*/
     width: 96%;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .hero-msg a{
@@ -542,9 +543,10 @@ h2{
         height: 250px;
     }
     
-    .hero-msg {
+     .hero-msg {
         width: 98%;
-        font-size: 0.8rem;
+        font-size: 0.78rem;
+        padding: 6px 10px; 
     }
     
     .shop-section {
@@ -554,9 +556,9 @@ h2{
     }
     
     .shop-section .box {
-        width: 100%;
-        margin-bottom: 0 0 20px 0;
-        border-radius: 0;
+    width: 100%;
+    margin: 0 0 20px 0;
+    border-radius: 0;
     }
     
     .grid {
@@ -647,12 +649,16 @@ h2{
         margin: 0 0 16px 0;
     }
 
-    .box-image {
-        height: auto;
+    .shop-section .box {
+        width: 100%;
+        margin: 0 0 16px 0;
     }
-    
-    .box {
-        padding: 15px 10px;
+
+    .box-image {
+        width: 100%;           /* ye line ADD karo */
+        height: auto;          /* already hai */
+        background-size: cover;
+        background-position: center;
     }
     
     .grid {
