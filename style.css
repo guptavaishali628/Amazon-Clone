@@ -428,7 +428,7 @@ h2{
     min-height: 400px;
     height: auto;
     display: flex;
-    align-items:first baseline;
+    align-items:flex-start;
     justify-content: center;
     gap: 8rem;
     background-color: #131A22;
@@ -549,12 +549,14 @@ h2{
     
     .shop-section {
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
+        justify-content: flex-start;
     }
     
     .shop-section .box {
-        width: 95%;
-        margin-bottom: 20px;
+        width: 100%;
+        margin-bottom: 0 0 20px 0;
+        border-radius: 0;
     }
     
     .grid {
@@ -638,6 +640,15 @@ h2{
     
     h2 {
         font-size: 1.1rem;
+    }
+
+    .shop-section .box {
+        width: 100%;
+        margin: 0 0 16px 0;
+    }
+
+    .box-image {
+        height: auto;
     }
     
     .box {
