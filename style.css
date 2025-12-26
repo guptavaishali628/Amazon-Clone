@@ -561,8 +561,9 @@ h2{
     border-radius: 0;
     }
     
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
+     .grid {
+        grid-template-columns: 1fr; 
+        gap: 15px;
     }
     
     .box9, .scroll-box-container {
@@ -661,8 +662,8 @@ h2{
         background-position: center;
     }
 
-     .box {
-        padding: 15px 0;          
+    .box {
+        padding: 15px 0;
     }
     
     .grid {
@@ -670,7 +671,7 @@ h2{
         gap: 15px;
     }
     
-     .item img {
+    .item img {
       max-width: 100%;
       display: block;
    }
@@ -717,7 +718,7 @@ h2{
     }
     
     .shop-section {
-        padding: 10px;
+        padding: 0;
     }
     
     .box9 {
