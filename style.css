@@ -555,9 +555,9 @@ h2{
         justify-content: flex-start;
     }
     
-    .shop-section .box {
+   .shop-section .box {
     width: 100%;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px 0;   
     border-radius: 0;
     }
     
@@ -655,8 +655,8 @@ h2{
     }
 
     .box-image {
-        width: 100%;           /* ye line ADD karo */
-        height: auto;          /* already hai */
+        width: 100%;
+        min-height: 220px; 
         background-size: cover;
         background-position: center;
     }
