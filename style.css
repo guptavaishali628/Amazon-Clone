@@ -240,6 +240,12 @@ h2{
   gap: 20px; /*gap between images*/
 }
 
+.box-image.grid {
+    width: 100%;
+    max-height: none;
+    overflow: visible;
+}
+
 .item {
   text-align: center;
 }
@@ -689,6 +695,11 @@ h2{
         border-top-right-radius: 4px;
     }
     
+    .box .box-image.grid {
+        max-height: 600px; 
+        overflow-y: visible;   
+    }
+
     .scroll-box-child {
         width: 120px;
         height: 170px;
