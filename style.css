@@ -219,8 +219,9 @@ h2{
 }
 
 .box-image{
-    /* height:300px; */
+    min-height: 220px;          
     background-size: cover;
+    background-position: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -663,9 +664,6 @@ h2{
 
     .box-image {
         width: 100%;
-        min-height: 220px; 
-        background-size: cover;
-        background-position: center;
     }
 
     .box {
